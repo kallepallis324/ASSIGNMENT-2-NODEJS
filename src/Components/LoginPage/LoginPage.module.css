@@ -1,0 +1,59 @@
+.LoginPageWrapper {
+  margin-top: 100px;
+}
+
+.LoginPageWrapper h1 {
+  color: white;
+}
+
+.loginFormWrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.loginFormInputsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.loginFormInputsWrapper p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.loginFormWrapper p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.loginFormInputsWrapper input {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: var(--messanger_body_color);
+}
+
+.loginFormWrapper button {
+  padding: 5px 15px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.loginPageErrorWrapper p {
+  color: red;
+  margin-top: 10px;
+  font-weight: 700;
+  text-align: center;
+}

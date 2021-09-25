@@ -1,0 +1,196 @@
+.homePageWrapper {
+  margin-top: 50px;
+}
+
+.chatScreenWrapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chatLeftDivWrapper {
+  width: 30%;
+  background-color: var(--secondary_color);
+  color: white;
+  padding: 15px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.userListWrapper {
+  list-style: none;
+}
+
+/* VERTICLE LINE */
+
+.verticleLine {
+  width: 1px;
+  background-color: black;
+}
+
+/* RIGHT DIV */
+.chatrightDivWrapper {
+  width: 70%;
+  height: 70vh;
+  position: relative;
+}
+
+.chatrightTopbar {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+  border-top-right-radius: 8px;
+}
+
+.chatrightTopbar h2 {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.messageDivWrapper {
+  background-color: var(--messanger_body_color);
+  height: 53vh;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.messageBoxWrapper {
+  text-align: left;
+}
+
+.messageBoxNameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  color: #999aa2;
+}
+
+.messageBoxNameWrapper p {
+  font-size: 13px;
+  font-style: italic;
+}
+.messageBoxNameWrapper h4 {
+  font-size: 13px;
+  font-style: italic;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.messageBoxNameWrapperOther {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+
+.messageBoxNameWrapperOther p {
+  font-size: 13px;
+  font-style: italic;
+}
+.messageBoxNameWrapperOther h4 {
+  font-size: 13px;
+  font-style: italic;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.messageBox {
+  width: 70%;
+  background-color: white;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.messageBox h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.messageBoxOther {
+  width: 70%;
+  background-color: var(--primary_color);
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: right;
+  color: white;
+  transform: translateX(43%);
+  padding-right: 15px;
+}
+
+/* MESSAGE INPUT */
+
+.messageEditorDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 12.5px;
+  border-bottom-right-radius: 8px;
+}
+
+.messageEditorDiv input {
+  width: 80%;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.messageEditorDiv button {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.conneceduserInfoBox {
+  background-color: rgb(146, 246, 188);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.conneceduserInfoBox p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.conneceduserInfoBox h4 {
+  font-weight: 600;
+}
+
+.disconneceduserInfoBox {
+  background-color: rgb(255, 77, 77);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.disconneceduserInfoBox p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disconneceduserInfoBox h4 {
+  font-weight: 600;
+}

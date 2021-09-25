@@ -1,0 +1,110 @@
+.homePageWrapper {
+  margin-top: 50px;
+}
+
+.chatScreenWrapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ccc;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.chatLeftDivWrapper {
+  width: 30%;
+}
+
+.userListWrapper {
+  list-style: none;
+}
+
+/* VERTICLE LINE */
+
+.verticleLine {
+  width: 1px;
+  background-color: black;
+}
+
+/* RIGHT DIV */
+.chatrightDivWrapper {
+  width: 70%;
+  height: 70vh;
+  position: relative;
+}
+
+.messageDivWrapper {
+  background-color: white;
+  height: 60vh;
+  margin: 10px;
+  padding: 15px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.messageBox {
+  background-color: rgb(146, 181, 246);
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageBox p {
+  align-self: flex-end;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* MESSAGE INPUT */
+
+.messageEditorDiv {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 23%;
+}
+
+.messageEditorDiv input {
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.messageEditorDiv button {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.conneceduserInfoBox {
+  background-color: rgb(146, 246, 188);
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.conneceduserInfoBox p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.conneceduserInfoBox h4 {
+  font-weight: 600;
+}
